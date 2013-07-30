@@ -13,6 +13,7 @@ WriteMakefile(
 		'Test::More' => 0,
 	},
 	META_MERGE => {
+		'meta-spec' => { version => 2 },
 		resources => {
 			homepage => 'https://github.com/doy/try-tiny.git',
 			repository => 'git://github.com/doy/try-tiny.git',
